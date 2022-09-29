@@ -1,11 +1,9 @@
 import * as React from "react";
 import { TextField } from "@mui/material";
 
-
-export default function Email_Password_Fields() {
+export default function Email_Password_Fields(props) {
   return (
     <>
-
       <TextField
         margin="normal"
         required
@@ -26,7 +24,6 @@ export default function Email_Password_Fields() {
         id="password"
         autoComplete="current-password"
       />
-      
     </>
   );
 }

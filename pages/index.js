@@ -1,5 +1,9 @@
-import * as React from "react";
-import Login from "../components/LogIn.component";
+import React, { useState, useEffect } from "react";
+import Router from "next/router";
+
 export default function App() {
-  return <Login></Login>;
+  useEffect(() => {
+    Router.push("/signin");
+  }, []);
+  return <></>;
 }
